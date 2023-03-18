@@ -1,0 +1,177 @@
+ div {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    /* border-width: 10px; */
+}
+.top-container {
+    background-color: #DDF7E3;
+    padding-top: 100px;
+    margin: 0px;
+    text-align: center;
+    position: relative;
+    /* height: 700px; */
+}
+body {
+    margin: 0px;
+    font-family: 'Asul', sans-serif;
+    text-align: center;
+    /* font-size: 200%; */
+    /* font-family: 'Times New Roman', Times, serif; */
+}
+h1 {
+    font-family: 'Freehand', cursive;
+    font-size: 5.125rem; 
+    margin: 50px auto 0 auto;
+    color: #66BFBF;
+    line-height: 2;
+    /* if we give pixels then that is static font but if we give % then that is dynamic font so instead of giving 
+    pixels we can give percentages
+    100% = 16px so if we want 50px the it is around 312.5% */
+    /* The problem with the dynamic font is parent font size will add up to the current font size then it will become even more bigger
+    which we never expect so in that case we have to give rem to not add up the parent font*/
+    /* width: 150px;
+    margin: 0 auto 0 auto; 
+    This auto helps to place element in the center of web page
+    margin starts from top to left in clock wise direction*/ 
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin: 0px;
+    color: #66BFBF;
+    font-weight: normal;
+}
+h3, a {
+    color: #11999E;
+}
+
+.pro {
+    text-decoration: underline;
+}
+  .cloud1 {
+    position: absolute;
+    top: 60px;
+    right: 600px;
+}
+
+/*.mountain {
+    position: absolute;
+    left: 500px;
+} */
+
+.cloud2 {
+    width: 300;
+    height: 300;
+    position: absolute;
+    top: 500px;
+    left: 500px;
+}
+
+.my-profile{
+    width: 300px;
+    height: 300px;
+   border-radius: 100%;
+}
+
+.my-skills {
+    /* width: 300px;
+    height: 300px;  */
+    border-radius: 100%;
+    width: 25%; /* width is 25% of it's parent div which is skill-row class*/
+    float: left;
+    margin-right: 30px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    position: relative;
+    text-align: left;
+    line-height: 2;
+    /* margin: auto; which will keep the element in the center position */
+    /* text-align: center; */
+}
+
+/* h3, p {
+    position: absolute;
+    left: 0px;
+} */
+
+/* .description {
+    clear: left; 
+} */
+
+.middle-container{
+    margin: 100px 0;
+}
+.bottom-container {
+    background-color: #DDF7E3;
+    padding: 50px 0 20px;
+    margin: 0px;
+}
+
+.intro {
+    width: 30%;
+    margin: 0 auto;
+    line-height: 2;
+}
+
+hr {
+    /* color: #eaf6f6; */
+    border-style: dotted;
+    /* border-top-style: dotted;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none; */
+    border-width: 9px 0 0 0;
+    border-color: gray;
+    width: 7%;
+    margin: 50px auto 50px auto;
+}
+
+
+a {
+    font-size: large;
+    display: inline-block;
+    margin: 30px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}
+
+button {
+    background-color: black;
+    /* border-width: 3px; */
+    border-radius: 30px;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #2980b9);
+    background-image: -moz-linear-gradient(top, #11cdd4, #2980b9);
+    background-image: -ms-linear-gradient(top, #11cdd4, #2980b9);
+    background-image: -o-linear-gradient(top, #11cdd4, #2980b9);
+    background-image: linear-gradient(to bottom, #11cdd4, #2980b9);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }

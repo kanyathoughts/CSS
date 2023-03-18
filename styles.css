@@ -1,0 +1,45 @@
+/************************TAG SELECTORS***************************/
+h1 {
+    color: red;
+    /* font-size: 200px; */
+    background-color: aqua;
+    /*border-style: dotted dashed inset outset;*/
+    border-style: dotted;
+    border-color: black;
+    border-width: 10px;
+    width: 200;  /* If you want to reduce border size then you have to reduce tag width and height then 
+    it will reflect for border also since everything in the website is box*/
+    height: 33;
+}
+img {
+    /* background-color: red; */
+    border-style: dotted;
+    border-color: black;
+    border-width: 10px;
+    width: 400;
+    height: 400;
+}
+
+/*****************************CLASS SELECTORS**************************/
+.Icecream {
+    background-color: brown;
+}
+.chocolate {
+    background-color: blue;
+}
+.heading-class {
+    color: darkred;
+}
+.circular {
+    border-radius: 100%;
+}
+
+/**********************ID SELECTORS********************************/
+#heading {
+    color: blue;
+}
+
+/****************PSEUDO CLASSES******************************/
+img:hover {
+    background-color: gold;
+}
